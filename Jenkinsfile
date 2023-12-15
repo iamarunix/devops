@@ -1,4 +1,5 @@
-@Library('devops_library@master') _
+library 'devops_library'
+
 node
 (
   myfirstcode("IndiaBees")
