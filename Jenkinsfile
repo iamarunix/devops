@@ -1,4 +1,4 @@
-library 'devops_library'
+@Library('devops_library@master') _
 
 node
 {
