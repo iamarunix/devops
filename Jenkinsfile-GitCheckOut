@@ -1,7 +1,7 @@
 @Library('devops_library@master') _
 node
 {
-	stage('GitCheckout')
+	stage('GitCheckOut')
 	{
 	  SourceCheckout("https://github.com/iamarunix/devops.git","master")
 	}
