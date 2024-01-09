@@ -3,6 +3,6 @@ node
 {
 	stage('GitCheckOut')
 	{
-	  SourceCheckout("https://github.com/iamarunix/devops.git","master")
+	  SourceCheckOut("https://github.com/iamarunix/devops.git","master")
 	}
 }
